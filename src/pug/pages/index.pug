@@ -1,0 +1,23 @@
+extends ./../layouts/main.pug
+
+block variables
+    - const title = "Главная";
+
+block content
+    include ./../sections/header.pug
+
+    .container
+        .row
+            .col-9
+                include ./../sections/posts-row.pug
+
+                include ./../sections/pagination.pug
+
+            .col-3
+                include ./../sections/widget-recent-posts.pug
+
+                include ./../sections/widget-popular-posts.pug
+
+                include ./../sections/widget-instagram-posts.pug
+
+    include ./../sections/footer.pug

@@ -1,0 +1,60 @@
+ .post {
+    padding-bottom: 40px;
+    border-bottom: 1px solid #000000;
+
+    &__row:not(:last-of-type) {
+        margin-bottom: 60px;
+    }
+
+    &__title {
+       margin: 0;
+       margin-bottom: 20px;
+       font-family: 'Playfair Display', serif;
+       font-size: 33px;
+       font-weight: 400;
+       color: #1a1a1a;
+       text-align: center;
+    }
+
+    &__info {
+       margin-bottom: 40px;
+       font-size: 14px;
+       font-weight: 700;
+       line-height: 1.2;
+       text-align: center;
+       text-transform: uppercase;
+       color: #B0B0B0;
+    }
+
+    &__image {
+        position: relative;
+        overflow: hidden;
+        width: 100% ;
+        max-width: 870px;
+        height: 360px;
+        margin-bottom: 40px;
+
+        & img {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+
+    &__lead {
+       margin-bottom: 40px;
+       font-size: 16px;
+       font-weight: 400;
+       line-height: 1.75;
+       color: #000000;
+    }
+
+    &__footer {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+    }
+}

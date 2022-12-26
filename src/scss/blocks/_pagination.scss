@@ -1,0 +1,37 @@
+.pagination {
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pagination__recent {
+
+}
+
+.pagination__text {
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #000000;
+
+    text-decoration: none;
+}
+.pagination__current {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 17px;
+
+}
+.pagination__link.current {
+    color: #E84C50;
+}
+.pagination__link {
+    font-weight: 700;
+    font-size: 18px;
+    color: #000000;
+    text-decoration: none;
+}
+.pagination__older {
+
+}

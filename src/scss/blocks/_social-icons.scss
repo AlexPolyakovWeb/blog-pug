@@ -1,0 +1,6 @@
+.social-icons {
+    display: grid;
+    grid-template: 1fr / repeat(3, 1fr);
+    gap: 30px;
+    max-width: 120px;
+}

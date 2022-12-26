@@ -1,0 +1,18 @@
+.header {
+    padding: 50px 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #000000;
+
+    &__row {
+        margin-bottom: 60px;
+    }
+
+    &__search {
+        display: grid;
+        grid-template: 1fr / auto auto;
+        align-items: center;
+        gap: 45px;
+    }
+}
